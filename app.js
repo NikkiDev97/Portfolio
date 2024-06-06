@@ -1,5 +1,7 @@
 
 
+
+
 // @media only screen and (min-width: 768px) {
 //   .container{
 //     min-width: 910px;
@@ -333,3 +335,8 @@
 // 		transform: translateX(-15vw) rotateX(180deg) rotateY(360deg);
 // 	}
 // }
+
+
+// Inicio contador de días para el cumple
+
+// Final contador de días para el cumple
