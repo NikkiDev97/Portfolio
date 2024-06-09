@@ -6,9 +6,10 @@
   <title>Nicole Rojas</title>
   <link rel="stylesheet" href="/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/cafaebdeac.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="sakura"><span></span><span></span><span></span><span></span>
@@ -35,7 +36,7 @@
         <label for="check" class="toggle-lang"></label>
       </div>
     </div>
-    <div class="box mode">Aqui va el modo claro/oscuro</div>
+    <div class="box mode">L/D</div>
     <div class="box links">
       <div>
         <a href="https://github.com/NikkiDev97">
@@ -58,31 +59,33 @@
         <p>¡Hola! <br> Soy Nicole Rojas</p>
       </div>
       <br>
-      <p class="about-title">Desarrolladora web</p>
+      <div class="about-title">
+        <p data-text="Desarrolladora web">Desarrolladora web</p>
+      </div>
       <p class="about-text">
-      <br>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ut quisquam accusantium ipsa, fugiat odio quaerat totam, repellendus dolores pariatur quos eos suscipit incidunt illum? Possimus, dolor animi. Et, quaerat!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Soy una persona apasionada por la programación y el diseño. Disfruto de aprender y explorar las tecnologías modernas. Me destaco por la precisión y la calidad de mi trabajo, y me motiva colaborar con equipos creativos.
       </p>
     </div>
     <div class="box skills">
       <p> Mis habilidades</p>
+      <div class="playbutton1"><i class="fa-solid fa-play"></i>
+      </div>
       <div class="scroll-1">
         <div class="scroll-content-1">
           <img src="HTML5.png">
           <img src="CSS3.png">
           <img src="Bootstrap.png">                   
-          <img src="Figma.png">
           <img src="JavaScript.png">
           <img src="Node.png">
           <img src="Git.png">
+          <img src="Figma.png">
           <img src="HTML5.png">
           <img src="CSS3.png">
           <img src="Bootstrap.png">                   
-          <img src="Figma.png">
           <img src="JavaScript.png">
           <img src="Node.png">
           <img src="Git.png">
+          <img src="Figma.png">
         </div>
         <div class="scroll-content-1">
           <img src="HTML5.png">
@@ -102,8 +105,10 @@
         </div>
       </div>
     </div>
-    <div class="box learning">
+    <div class="box learning">  
       <p> Estoy aprendiendo</p>
+      <div class="playbutton2"><i class="fa-solid fa-play"></i>
+      </div>
       <div class="scroll-2">
         <div class="scroll-content-2">
           <img src="Java.png">
@@ -125,30 +130,32 @@
         </div>
       </div>
     </div>
+    <div class="box HR">
+      <a href="https://www.hackerrank.com/profile/NikkiDev97">
+        <p>@NikkiDev97</p>
+      </a>
+    </div>
     <div class="box english">
       <p>Nivel</p>
       <p class="c1">C1</p>
-      <p>en inglés</p>
-    </div>
-    <div class="box cv"> CV
-      <a href="Captura.PNG" class="download-btn" target="_blank" download="CV">Descarga
-        <div><i class="fa fa-download"></i></div>
-      </a>
-    </div>
-    <div class="box age">
-      <p>Edad</p>
-      <p class="agenum">26</p>
-    </div>
-    <div class="box counter">
-      <p class="days">24</p>
-      <p>Días para mi cumple</p>
+      <p>inglés</p>
     </div>
     <div class="box japanese">
       <p>Nivel</p>
       <p class="n5">N5</p>
-      <p>en japonés</p>
+      <p>japonés</p>
     </div>
-    
+    <div class="box CW">
+      <a href="https://www.codewars.com/users/NikkiDev97">
+        <img src="codewars.png">
+        <p>NikkiDev97</p>
+      </a>
+    </div>
+    <div class="box cv"> CV
+      <a href="CV final ingles + español Nicole Rojas.pdf" class="download-btn" target="_blank" download="CV Nicole Rojas English + Español">Descarga
+      <i class="fa fa-download"></i>
+      </a>
+    </div>
     <div class="box map">
       <span class="heartbeat"></span>
       <div>
@@ -160,11 +167,10 @@
       <a href="">
         <p>Proyectos</p>
       </a>
-    </div>
-    
+    </div>  
     <div class="box contact">    
       Envíame un mensaje
-      <div class="girlcontainer"><img src="/contact.png"></div>
+      <div class="girlcontainer"><img src="contact1.png"></div>
       <form action="https://formspree.io/f/mdoqyvyg" method="post">
         <div class="forminput">
           <input 
@@ -199,10 +205,14 @@
           <button type="button" onclick="cancelar()">Cancelar</button>
         </div>    
       </form>
-
     </div>
-    <div class="box footer">Footer</div>
+    <div class="box footer">
+      <div class="scroll-up"><i class="fa-solid fa-angles-up"></i>
+      </div>
+      <p class="footerp1">© 2024 Nicole Rojas</p>
+      <p class="footerp2">Construido desde cero con CSS y JS</p>
+    </div>
   </div> 
-  <script src="script.js"></script> 
+  <script src="app.js"></script> 
 </body>
 </html>
