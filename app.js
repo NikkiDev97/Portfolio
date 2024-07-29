@@ -99,12 +99,12 @@ function changeMode(){
 
 function changeModeImage(){
   if(pageMode === "dark"){
-    modeBox.style.backgroundImage = "url('./sun.gif')";
+    modeBox.style.backgroundImage = "url('https://res.cloudinary.com/dk16s84va/image/upload/v1722210953/lightmode.gif')";
     modeBox.style.backgroundColor = "#fffefe";
 
   }
   else{
-    modeBox.style.backgroundImage = "url('./moon.gif')";
+    modeBox.style.backgroundImage = "url('https://res.cloudinary.com/dk16s84va/image/upload/v1722210954/darkmode.gif')";
     modeBox.style.backgroundColor = "#white";
   }
 }
